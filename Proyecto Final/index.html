@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Gestión Apícola</title>
+  <link rel="shortcut icon" href="https://github.com/user-attachments/assets/c828efd4-4574-4112-a696-423f91b4e87c" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-yellow-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-yellow-500 text-white py-6 shadow-md">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold">🐝 Sistema de Gestión Apícola 🐝</h1>
+      <p class="mt-2 text-lg">Facilitando el manejo y monitoreo eficiente de tus colmenas</p>
+    </div>
+  </header>
+
+  <!-- Sección Características Principales -->
+  <section class="container mx-auto px-4 py-10">
+    <h2 class="text-3xl font-bold text-center text-yellow-700 mb-8">🌿 Características Principales</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Característica: Clases y Objetos -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-yellow-600">🐝 Clases y Objetos</h3>
+        <ul class="mt-4 text-gray-700">
+          <li><strong>Colmena:</strong> Gestión de identificación, ubicación, estado de salud, cantidad de abejas y producción de miel.</li>
+          <li><strong>Apicultor:</strong> Manejo de información sobre apicultores responsables.</li>
+          <li><strong>Abeja Reina:</strong> Modelo para la abeja reina con atributos específicos.</li>
+          <li><strong>Inspección:</strong> Registro de inspecciones periódicas y acciones tomadas.</li>
+        </ul>
+      </div>
+
+      <!-- Característica: Operaciones -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-yellow-600">🔧 Operaciones</h3>
+        <ul class="mt-4 text-gray-700">
+          <li><strong>Gestión de Colmenas:</strong> Agregar, actualizar y registrar inspecciones.</li>
+          <li><strong>Gestión de Apicultores:</strong> Registrar y asignar apicultores a colmenas específicas.</li>
+        </ul>
+      </div>
+
+      <!-- Característica: Validaciones y Excepciones -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-yellow-600">❌ Validaciones y Excepciones</h3>
+        <ul class="mt-4 text-gray-700">
+          <li><strong>Validaciones:</strong> Control de datos como cantidad de abejas y fechas.</li>
+          <li><strong>Manejo de Excepciones:</strong> Errores al inspeccionar colmenas inexistentes o datos incompletos.</li>
+        </ul>
+      </div>
+
+      <!-- Característica: Interfaz de Usuario -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-yellow-600">⌚ Interfaz de Usuario</h3>
+        <p class="mt-4 text-gray-700">Interfaz en consola sencilla para visualizar colmenas, registrar inspecciones y actualizar información.</p>
+      </div>
+
+      <!-- Característica: Hilos y Recursividad -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-yellow-600">🔄 Hilos y Recursividad</h3>
+        <ul class="mt-4 text-gray-700">
+          <li><strong>Hilos:</strong> Simulación de inspecciones simultáneas.</li>
+          <li><strong>Recursividad:</strong> Búsquedas profundas en historial de inspecciones.</li>
+        </ul>
+      </div>
+
+      <!-- Característica: Manejo de Archivos -->
+      <div class="bg-white rounded-lg shadow-md p-6 hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-yellow-600">📁 Manejo de Archivos</h3>
+        <p class="mt-4 text-gray-700">Guardado y recuperación de datos de colmenas y apicultores para mantener persistencia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programación Orientada a Objetos -->
+  <section class="bg-yellow-100 py-10">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center text-yellow-700 mb-8">⚙️ Programación Orientada a Objetos</h2>
+      <p class="text-gray-700 text-center">Este sistema aplica los principios de encapsulamiento, herencia y polimorfismo para un diseño eficiente y reutilizable.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-bold text-yellow-600">Herencia</h3>
+          <p class="mt-4 text-gray-700">Uso de clases específicas como <strong>AbejaReina</strong> basadas en una clase genérica <strong>Abeja</strong>.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-bold text-yellow-600">Polimorfismo</h3>
+          <p class="mt-4 text-gray-700">Métodos reutilizables que se adaptan según el tipo de objeto (Colmena, Inspección, etc.).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video de referencia -->
+  <section class="container mx-auto px-4 py-10">
+    <h2 class="text-3xl font-bold text-center text-yellow-700 mb-8">🎨 Video de Referencia</h2>
+    <div class="flex justify-center">
+      <iframe class="w-full max-w-3xl h-64 md:h-96 rounded-lg shadow-md" src="https://www.youtube.com/embed/uZdaZwTTtdU" title="Video de Referencia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-500 text-white py-6 mt-10">
+    <div class="container mx-auto px-4 text-center">
+      <p>✨ Gracias por tu interés en el Sistema de Gestión Apícola ✨</p>
+      <p class="mt-2">Desarrollado con amor por los apasionados de la apicultura 🐝</p>
+    </div>
+  </footer>
+</body>
+</html>
